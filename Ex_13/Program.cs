@@ -11,7 +11,7 @@ int result=0;
 
 if (num>99)
 {
-    while (num>1000)
+    while (num>=1000)
 {
         num=num/10;
 }
