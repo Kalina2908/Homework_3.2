@@ -8,7 +8,7 @@
 
 Console.WriteLine("Введите число, обозначающее день недели: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num<8)
+if (num<8 && num>0)
 {
     if (num>5)
     {
