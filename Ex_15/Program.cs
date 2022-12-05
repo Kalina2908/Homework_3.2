@@ -21,5 +21,12 @@ if (num<8)
 }
 else
 {
-    Console.WriteLine("Куда еще столько дней в неделе?");
+    if (num>7)
+    {
+        Console.WriteLine("Куда еще столько дней в неделе?");
+    }
+    else
+    {
+        Console.WriteLine("Такого не может быть!");
+    }
 }
